@@ -1,4 +1,4 @@
-package datatypes;
+package javasyntax;
 
 public class PrimitiveTypes {
 
