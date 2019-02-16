@@ -8,7 +8,7 @@ public class SwitchStatement {
         double discout = .1;
         double ticketPrice = defaultTicketPrice;
         int age = 26;
-        int switchVar = 6;
+        int switchVar = 1;
 
         switch (switchVar)
         {
@@ -23,7 +23,7 @@ public class SwitchStatement {
                 break;
             case 1:
                 System.out.println("We are now inside case: 1");
-                break;
+//                break;
             default:
                 System.out.println("We are now inside default: " + switchVar);
 
