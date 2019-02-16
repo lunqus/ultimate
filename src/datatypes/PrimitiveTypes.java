@@ -47,7 +47,11 @@ public class PrimitiveTypes {
 
         char prefix = (char) d;
 
-        System.out.println(prefix);
+        System.out.println(d + " " + maps + " " + maps);
+        System.out.println("65 115 115 = " + prefix + " " + s + " " + s);
+        System.out.println(prefix + s + s);
+
+
 
         int f = 20;
         double r = 22;
