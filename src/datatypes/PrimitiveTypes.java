@@ -30,17 +30,19 @@ public class PrimitiveTypes {
         int mappedVal = (int) otherChar;
         System.out.println(mappedVal); // prints -----> 57
 
+        char S = 'S';
         char s = 's';
         char i = 'i';
         char g = 'g';
 
+        int mapS = (int) S;
         int maps = (int) s;
         int mapi = (int) i;
         int mapg = (int) g;
 
-        System.out.println(maps + " " + mapi + " " + mapg + " " + mapi + " " + maps);
+        System.out.println(mapS + " " + mapi + " " + mapg + " " + mapi + " " + maps);
 
-        int d = 865;
+        int d = 65;
         int si = 115;
 
         char prefix = (char) d;
