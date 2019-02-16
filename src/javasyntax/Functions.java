@@ -9,8 +9,12 @@ public class Functions {
         int add = a + b;
         System.out.println(add);
 
+        int tot = add(2,4);
+        System.out.println("Total: " + tot);
+
         boolean isPrime = isNumberPrime(7);
         System.out.println(isPrime);
+
     }
 
     static int add(int a, int b) {
