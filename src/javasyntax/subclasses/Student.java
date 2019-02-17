@@ -10,8 +10,8 @@ public class Student extends Person {
         mGpa = gpa;
     }
 
-//    @Override
-//    public void printInfo() {
-//        System.out.println("I am a " + name + " and I was born on " +  birthDay + " GPA: " + mGpa);
-//    }
+    @Override
+    public void printInfo() {
+        System.out.println("I am a " + getName() + " and I was born on " +  getBirthDay() + " GPA: " + mGpa);
+    }
 }
