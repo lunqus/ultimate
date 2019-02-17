@@ -1,4 +1,4 @@
-package javasyntax.ObjectsIntro;
+package javasyntax.objectsIntro;
 
 public class ObjectsMain {
 
