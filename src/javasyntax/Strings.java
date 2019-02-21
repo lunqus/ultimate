@@ -23,7 +23,7 @@ public class Strings {
                                                         // the same location of memory and finds that they points to
                                                        // the different blocks of memory.
         System.out.println(areStringsSame); // true
-        System.out.println(oho); // false
+        System.out.println("oho: " + oho); // false
 
         // Strings are immutable
 
