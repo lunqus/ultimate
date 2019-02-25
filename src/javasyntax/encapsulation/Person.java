@@ -7,10 +7,10 @@ public class Person {
     private double money;
 
 
-    public Person(String pName, int pUserName, String pPassword) {
-        name = pName;
-        userName = pUserName;
-        password = pPassword;
+    public Person(String $Name, int $UserName, String $Password) {
+        name        = $Name;
+        userName    = $UserName;
+        password    = $Password;
     }
 
     public void setMoney(double newAmount, String pass) {
