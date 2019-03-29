@@ -7,16 +7,16 @@ public class Person {
     private double money;
 
 
-    public Person(String $Name, int $UserName, String $Password) {
+    public Person(String $Name, int $userName, String $password) {
         name        = $Name;
-        userName    = $UserName;
-        password    = $Password;
+        userName    = $userName;
+        password    = $password;
     }
 
-    public void setMoney(double newAmount, String pass) {
+    public void setMoney(double $amount, String $password) {
 
-        if (password.equals(pass))
-            money = newAmount;
+        if (password.equals($password))
+            money = $amount;
         else
             System.out.println("Your password is incorrect!");
     }

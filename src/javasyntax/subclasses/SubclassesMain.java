@@ -1,11 +1,15 @@
 package javasyntax.subclasses;
 
+import java.util.Date;
+
 public class SubclassesMain {
+
+    private static Object Assignment;
 
     public static void main(String[] args) {
 
 
-        Student student1 = new Student("Willy", "April 20, 2000", "8.0");
+        Student student1 = new Student("Willy", "April 20, 2000", 8.0);
         student1.printInfo();
 
         Teacher teacher1 = new Teacher("Sally", "March 19, 1998", "UCLA", 90000);
@@ -18,7 +22,7 @@ public class SubclassesMain {
 
         Person[] myPersonArray =
                 {
-                        new Student("Don", "Apr 25, 2000", "9.0"),
+                        new Student("Don", "Apr 25, 2000", 9.0),
                         new Teacher("Zigma", "Mar 2, 1985", "Vilnius", 10000)
                 };
 
@@ -26,5 +30,17 @@ public class SubclassesMain {
 
             myPersonArray[i].printInfo();
         }
+
+        System.out.println("");
+
+        Date mAssgnmentDueDate = new Date();
+        Assignment joeyAssignment = new Assignment("Calculus Homework", "Calculus", mAssgnmentDueDate);
+
+        Student joey = new Student("Joey", "20/05/1970", 5.0);
+        joey.setCurrentAssigment(joeyAssignment);
+        joey.printAssignmentInfo();
+        System.out.println(joey.toString());
+        joey.setmCurrentAssigment("Biology project");
+        joey.printAssignmentInfo();
     }
 }
