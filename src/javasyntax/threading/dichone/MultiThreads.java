@@ -1,4 +1,7 @@
-package javasyntax.threading;
+package javasyntax.threading.dichone;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MultiThreads {
 
@@ -12,7 +15,7 @@ public class MultiThreads {
         new MyThread("Child #3");
         new MyThread("Child #4");
 
-        int x = 50;
+        int x = 10;
         for (int i = 0; i < x; i++) {
             System.out.print("." );
             try {
@@ -29,16 +32,16 @@ public class MultiThreads {
     static class MyThread implements Runnable {
 
         Thread thread;
-
         String myThread;
+
         @Override
         public void run() {
 
             System.out.println(myThread + " Starting");
 
-            for (int count = 0; count < 10; count++) {
+            for (int count = 1; count <= 5; count++) {
                 try {
-                    Thread.sleep(400);
+                    Thread.sleep(100);
                     System.out.println("In " + myThread + " count is " + count);
 
                 } catch (InterruptedException e) {
@@ -46,7 +49,7 @@ public class MultiThreads {
                     e.printStackTrace();
                 }
 
-                System.out.println(myThread + " terminated");
+                // System.out.println(myThread + " terminated");
             }
         }
 

@@ -1,4 +1,4 @@
-package javasyntax.threading;
+package javasyntax.threading.dichone;
 
 public class OneThread {
 
@@ -23,7 +23,7 @@ public class OneThread {
 
             System.out.println(myThread + " Starting");
 
-            for (int count = 0; count < 10; count++) {
+            for (int count = 6; count <= 10; count++) {
                 try {
                     Thread.sleep(400);
                     System.out.println("In " + myThread + " count is " + count);
@@ -33,7 +33,7 @@ public class OneThread {
                     e.printStackTrace();
                 }
 
-                System.out.println(myThread + " terminated");
+                // System.out.println(myThread + " terminated");
             }
         }
 
