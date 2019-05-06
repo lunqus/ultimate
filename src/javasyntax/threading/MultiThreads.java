@@ -1,4 +1,4 @@
-package javasyntax.threading.dichone;
+package javasyntax.threading;
 
 import java.util.ArrayList;
 import java.util.List;

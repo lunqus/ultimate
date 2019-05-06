@@ -1,4 +1,4 @@
-package javasyntax.threading.dichone;
+package javasyntax.threading;
 
 public class Main {
 
